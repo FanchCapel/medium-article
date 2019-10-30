@@ -1,0 +1,60 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+.banner {
+  background: linear-gradient(to bottom, transparent, black),
+  url('https://res.cloudinary.com/wagon/image/upload/c_fill,q_auto,w_1440/v1572341312/k01b3br5vjgscatx7yvv.webp');
+  color: white;
+  padding: 200px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+  background-color: #FFFAEF;
+  font-family: arial;
+  color: #576E75;
+  font-size: 18;
+  line-height: 1;
+  margin: 0;
+}
+
+
+.container {
+  margin: auto;
+}
+
+.paragraph {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+}
+
+.footer {
+  color: white;
+  background: linear-gradient(to bottom, transparent, black);
+  text-align: center;
+  padding: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pic {
+  width: 50px;
+}
